@@ -33,4 +33,27 @@ body {
 #links {
     float: right;
     padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 300px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+a:link {
+    color: rgb(69, 151, 69);
+}
+
+a:visited {
+    color: rgb(69, 151, 69);
+}
+
+a:hover {
+    background: rgb(197, 248, 197);
+}
+
+a:active {
+    color: rgb(33, 102, 51);
 }
