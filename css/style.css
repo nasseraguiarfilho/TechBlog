@@ -1,0 +1,30 @@
+/* Cleaning default settings */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(212, 206, 206);
+}
+
+#shortcuts {
+    background: rgb(255, 242, 242);
+    border-bottom: 1px solid rgb(77, 73, 73);
+    height: 40px;
+}
+
+#area1 {
+    width: 620px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+#area2 {
+    width: 620px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
