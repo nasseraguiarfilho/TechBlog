@@ -18,8 +18,9 @@ body {
 }
 
 #area1 {
-    width: 620px;
-    margin: 0 auto;
+    width: 1200px;
+    height: 40px;
+    margin-left: 350px;
 }
 
 .green {
@@ -31,10 +32,10 @@ body {
 }
 
 #links {
-    float: right;
     padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-right: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    float: right;
 }
 
 a {
@@ -56,4 +57,26 @@ a:hover {
 
 a:active {
     color: rgb(33, 102, 51);
+}
+
+.post {
+    background: white;
+    width: 1200px;
+    height: 300px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+.textPost {
+    height: 220px;
+    border: 1px solid blue;
+}
+
+.author {
+    height: 40px;
+    border: 1px solid red;
 }
