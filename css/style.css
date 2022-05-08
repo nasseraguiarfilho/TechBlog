@@ -15,13 +15,15 @@ body {
     background: rgb(255, 242, 242);
     border-bottom: 1px solid rgb(77, 73, 73);
     height: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 #area1 {
     width: 1200px;
     height: 40px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .green {
@@ -33,9 +35,7 @@ body {
 }
 
 #links {
-    padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-    'Lucida Sans', Arial, sans-serif;
+    padding: 10px 0px 10px 0px;
     float: right;
 }
 
@@ -64,7 +64,7 @@ a:active {
     background: white;
     width: 1200px;
     height: 300px;
-    margin: 30px auto 10px auto;
+    margin: 60px auto -40px auto;
 }
 
 .title {
@@ -80,6 +80,9 @@ a:active {
 }
 
 .imgPost {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
     float: left;
     margin: 0px 10px 10px 10px;
 }
